@@ -31,7 +31,6 @@ python-stock-analysis
 
 ---
 
-
 ## 📄 **Data Source**
 
 The dataset consists of **over 1,000 CSV files**, each containing daily OHLCV (Open, High, Low, Close, Volume) data for a single stock ticker.  
@@ -98,11 +97,17 @@ This is intentional for demonstration purposes and is clearly documented.
 
 ## 📈 **Insights & Interpretation**
 
-- Open and Close prices show a **near‑perfect linear correlation**, which is expected due to the nature of intraday price movements.  
-- Long‑term price trends differ significantly between the sampled tickers, reinforcing the importance of diversification.  
-- Validation checks revealed inconsistent or illogical values in several files (e.g., negative prices), highlighting the need for robust preprocessing in financial datasets.  
-- The linear model performs extremely well on same‑day prediction tasks, but **is not suitable for forecasting** — demonstrating the importance of understanding model context and limitations.  
+The exploratory analysis highlights several consistent patterns across all five tickers:
 
+Open and Close prices exhibit extremely high linear correlation, with the regression model achieving an R² of approximately 0.998. This is expected given that intraday price drift is typically small relative to total trading range. [github.com]
+
+Volatility differed noticeably between tickers, with some stocks showing smooth price movements while others displayed wider daily ranges. This indicates differing levels of market sensitivity and trading activity.
+
+Closing‑price trendlines suggested distinct long‑term patterns, including upward growth, sideways consolidation, or cyclical movement depending on the company. These differences reinforce the importance of multi‑ticker analysis when comparing investment performance.
+
+Data‑quality checks revealed anomalies such as negative or illogical High/Low values, demonstrating the importance of robust preprocessing when working with financial data. [github.com]
+
+The linear model performed exceptionally well due to same‑day prediction design, but this also demonstrates a key modelling limitation: simple regression cannot be used for forecasting unless engineered to avoid leakage. This highlights the distinction between explanatory models and predictive models.  
 
 ---
 
