@@ -71,9 +71,13 @@ These steps ensure that the dataset reflects realistic market behaviour before a
 A line chart visualising long‑term price movement for a single selected ticker.  
 This provides insight into trend direction, volatility, and potential breakouts.
 
+<img width="1040" height="635" alt="image" src="https://github.com/user-attachments/assets/c9185568-b3d2-42b0-be7f-c3d9965b5ca4" />
+
 ### **2️⃣ Open vs Close — Scatter Plot**  
 A scatter plot demonstrating the extremely strong linear relationship between Open and Close prices for the chosen stock.  
 This explains why a simple linear model can achieve extremely high R² for same‑day prediction.
+
+<img width="900" height="549" alt="image" src="https://github.com/user-attachments/assets/16d0aec4-14b0-436f-bc1d-deb27c06beb0" />
 
 ---
 
