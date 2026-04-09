@@ -1,17 +1,22 @@
 # Stock Market Data Analysis — Python Project
 
 ## 📌 Project Overview
-This project is an end‑to‑end Python analysis of historical stock‑market data.  
-The goal is to demonstrate core data‑analysis skills expected for junior analyst roles, including:
+This project provides an end‑to‑end analysis of historical stock‑market data using Python. It demonstrates core analytical skills relevant to junior data roles, including data ingestion, cleaning, exploratory analysis, visualisation, and a simple supervised learning model. The project was originally developed as part of an academic assignment and has since been expanded and reframed for professional portfolio use.
 
-- Data ingestion from multiple files  
-- Data cleaning & validation  
-- Exploratory data analysis (EDA)  
-- Visualisation using Matplotlib  
-- A simple predictive model using scikit‑learn  
-- Interpreting insights & documenting limitations  
+---
 
-This project was originally built as part of an academic assignment, and has been expanded and reframed for professional portfolio use.
+## 📊 Executive Summary
+This analysis explores how stock‑price data can be processed, validated, visualised, and modelled within a scalable Python workflow. The project makes use of over 1,000 original CSV files representing daily OHLCV data for individual stock tickers, from which a subset of five were selected for analysis.
+The workflow demonstrates:
+
+data ingestion from multiple files
+data cleaning and quality validation
+exploratory trend analysis
+visualisation of price movements
+a simple predictive model using scikit‑learn
+interpretation of results and discussion of limitations
+
+This mirrors real‑world analytical expectations where the ability to extract patterns, validate data integrity, and communicate insights is as important as any modelling output.
 
 ---
 
